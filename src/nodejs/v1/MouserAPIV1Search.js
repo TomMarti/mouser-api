@@ -7,19 +7,19 @@ class MouserAPIV1Search{
     }
 
     partByKeyword (keyword, callback) {
-        console.log("keyword")
+        console.log("POST: /search/keyword")
     }
 
     partByKeywordAndManufacturer (keyword, manufacturer) {
-        console.log("Keyword Manufacturer")
+        console.log("POST: /search/keywordandmanufacturer")
     }
 
     partByPartnumber (partnumber) {
-        console.log("Partnumber")
+        console.log("POST: /search/partnumber")
     }
 
     partByPartnumberAndManufacturer (partnumber, manufacturer) {
-        console.log("Partnumber manufacturer")
+        console.log("POST: /search/partnumberandmanufacturer")
     }
 
     manufacturer (callback) {
